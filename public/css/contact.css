@@ -1,0 +1,22 @@
+.contact main h3 {
+    font-family: var(--tipografiaTitulos);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+}
+.contact main section iframe {
+    width: 100%;
+    height: 600px;
+    border: none;
+}
+.contact main section article {
+    margin-bottom: 50px;
+}
+.contact main section p {
+    line-height: 10px;
+}
+.contact main section h4 {
+    color: var(--colorVerde);
+    font-family: var(--tipografiaTitulos);
+    font-weight: 600;
+}

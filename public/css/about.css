@@ -1,0 +1,31 @@
+body.about {
+    box-sizing: border-box;
+    border-left: 60px solid #000;
+    border-right: 60px solid #000;
+    border-bottom: 1px solid #000;
+    background-image: url(/img/emilia-about.jpg);
+    background-size: 71% 100%;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.about h1 {
+    margin-top: 50px;
+}
+.about article {
+    margin-left: 30px;
+    color: var(--colorVerde);
+}
+#main--article{
+    margin-top: 80px;
+}
+.about h3 {
+    font-family: var(--tipografiaTitulos);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+}
+.about p {
+    font-family: var(--tipografiaEmilia);
+    font-size: 14px;
+    font-weight: 500;
+}
