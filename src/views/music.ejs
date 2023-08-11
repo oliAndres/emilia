@@ -1,31 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emilia | Music</title>
-    <script src="https://kit.fontawesome.com/e4646141a1.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/css/styles.css">
-</head>
+
+<%- include('partials/head') %>
+
 <body class="music">
-    <header class="header--horizontal header--music">
-        <nav class="header--horizontal-menu">
-            <ul>
-                <li><a href="/">| home </a></li>
-                <li><a href="/about">| about </a></li>
-                <li><a href="/music">| music </a></li>
-                <li><a href="/contact">| contact |</a></li>
-            </ul>
-        </nav>
-        <nav>
-            <a href=""><i class="fa-brands fa-twitter"></i></a>
-            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
-            <a href=""><i class="fa-brands fa-spotify"></i></a>
-            <a href=""><i class="fa-brands fa-apple"></i></a>
-            <a href=""><i class="fa-brands fa-amazon"></i></a>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-        </nav>
-    </header>
+
+    <%- include('partials/header') %>
+
     <main>
         <h1>music //</h1>
         <nav>
@@ -39,7 +20,7 @@
         <section>
             <article id="album">
                 <h3>album<br>twist in my reality</h3>
-                <img src="/img/emilia-play-list.png" alt="foto del disco">
+                <img src="/images/emilia-play-list.png" alt="foto del disco">
                 <ol>
                     <li><i class="fas fa-play"></i>Organic Love | 02:40</li>
                     <li><i class="fas fa-play"></i>Twist In My Reality | 02:10</li>

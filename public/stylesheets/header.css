@@ -29,7 +29,7 @@ header a {
     display: inline;
 }
 .header--music {
-    background-image: url(/img/emilia-music-top.jpg);
+    background-image: url(/images/emilia-music-top.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
